@@ -1,0 +1,36 @@
+
+.Popcorn-message {
+  
+  padding: 50px;
+  margin: 50px auto;
+  position: relative;
+  height: 150px;
+  width: 500px;
+  background-color: darkgray;
+  z-index: 1000;
+  border: solid 3px gray
+}
+
+.Popcorn-message p {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 3rem;
+  background-color: #330000;
+  color: red;
+  font-weight: bold;
+  height: 70px;
+  margin: 0;
+}
+
+.Popcorn-button {
+  margin: 15px auto;
+  width: 350px;
+  display: block;
+  background-color: #540000;
+  color: red;
+  font-size: 1.5rem; 
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  border: solid 3px black;
+  padding: 5px;
+}

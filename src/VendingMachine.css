@@ -1,0 +1,56 @@
+
+.VendingMachine {
+  margin-top: 50px;
+  padding-top: 45px;
+  margin: 0 auto;
+  background-color: #545454;
+  width: 500px;
+  height: 100vh;
+  border: solid 5px black;
+}
+
+.VendingMachine h1 {
+  margin-bottom: 100px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  background-color: #3d3d3d;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.VendingMachine-buttons-container {
+  margin-top: 50px;
+}
+
+.VendingMachine-button {
+  margin: 15px auto;
+  width: 200px;
+  display: block;
+  background-color: #540000;
+  color: red;
+  font-size: 2rem; 
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  border: solid 3px black;
+  padding: 5px;
+}
+
+.VendingMachine-retrieval {
+  margin: 0 auto;
+  width:300px;
+  height: 100px;
+  background-color: black;
+}
+
+.VendingMachine i {
+  color: gold;
+  margin-top: 100px;
+}
+
+.VendingMachine p {
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.3rem;
+}

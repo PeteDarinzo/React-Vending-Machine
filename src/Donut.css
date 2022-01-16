@@ -1,0 +1,28 @@
+.Donut {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Donut h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.Donut-button {
+  margin: 15px auto;
+  width: 350px;
+  display: block;
+  background-color: #540000;
+  color: red;
+  font-size: 1.5rem; 
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  border: solid 3px black;
+  padding: 5px;
+}
