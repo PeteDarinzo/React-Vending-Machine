@@ -13,16 +13,9 @@ function randRange(min = 0, max = 100) {
 const Popcorn = () => {
 
   const [popcornPiles, setPopcornPiles] = useState([]);
-  const [showWarning, setShowWarning] = useState(true);
-  const timerId = useRef();
-  const warningTimerId = useRef();
 
   const addPopcornPile = () => {
     setPopcornPiles(piles => [...piles, { x: randRange(), y: randRange() }]);
-  }
-
-  const toggleWarning = () => {
-    setShowWarning(!showWarning);
   }
 
   useEffect(() => {
