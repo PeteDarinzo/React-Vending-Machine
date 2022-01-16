@@ -1,6 +1,9 @@
 import React from "react";
-import Popcorn from "./Popcorn";
 
+
+/**
+ * Render a popcorn image at the supplied coordinates
+ */
 const PopcornPile = ({ x, y }) => {
 
   return (
@@ -11,7 +14,6 @@ const PopcornPile = ({ x, y }) => {
     }}>
       <img
         src="https://www.pngall.com/wp-content/uploads/2018/06/Popcorn-PNG-Clipart.png"
-
         style={{
           height: "400px"
         }}

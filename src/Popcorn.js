@@ -10,6 +10,11 @@ function randRange(min = 0, max = 100) {
   return Math.random() * (max - min) + min;
 }
 
+/**
+ * Return popcorn message and link back to vending machine
+ * Stores a list of popcorn piles in state, each pile includes random x-y coordinates
+ * Piles appear on screen every 100ms
+ */
 const Popcorn = () => {
 
   const [popcornPiles, setPopcornPiles] = useState([]);
@@ -25,7 +30,6 @@ const Popcorn = () => {
 
     return () => clearInterval(id);
   }, []);
-
 
   return (
     <div>

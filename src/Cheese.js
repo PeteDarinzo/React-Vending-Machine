@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Cheese.css";
 
+/**
+ * Return cheese header and link back to vending machine
+ */
 const Cheese = () => {
   return (
     <div className="Cheese">

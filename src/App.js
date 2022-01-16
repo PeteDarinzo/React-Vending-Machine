@@ -1,11 +1,14 @@
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom"
-
 import Popcorn from './Popcorn';
 import Cheese from './Cheese';
 import Donut from './Donut'
 import VendingMachine from './VendingMachine';
 
+/**
+ * Create BrowserRouter with Routes for each food item
+ * '/' route renders a vending machine that presents all choices
+ */
 function App() {
   return (
     <div className="App">
@@ -13,13 +16,13 @@ function App() {
         <Route exact path="/">
           <VendingMachine />
         </Route>
-        <Route exact path="/Cheese">
+        <Route exact path="/cheese">
           <Cheese />
         </Route>
-        <Route exact path="/Popcorn">
+        <Route exact path="/popcorn">
           <Popcorn />
         </Route>
-        <Route exact path="/Donut">
+        <Route exact path="/donut">
           <Donut />
         </Route>
       </BrowserRouter>

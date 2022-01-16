@@ -34,6 +34,7 @@
   font-family: 'Orbitron', sans-serif;
   border: solid 3px black;
   padding: 5px;
+  letter-spacing: 2px;
 }
 
 .VendingMachine-retrieval {
