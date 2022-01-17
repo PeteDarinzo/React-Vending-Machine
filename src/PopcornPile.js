@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 /**
  * Render a popcorn image at the supplied coordinates
  */
@@ -13,7 +14,7 @@ const PopcornPile = ({ x, y }) => {
       left: `${x}vw`,
     }}>
       <img
-        src="https://www.pngall.com/wp-content/uploads/2018/06/Popcorn-PNG-Clipart.png"
+        src="/images/popcorn.png"
         style={{
           height: "400px"
         }}

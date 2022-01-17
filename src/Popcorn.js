@@ -37,6 +37,7 @@ const Popcorn = () => {
         <p>
           <i className="fas fa-dizzy" /> MALFUNCTION <i className="fas fa-dizzy" />
         </p>
+        <PopcornPile x={100} y={100}/>
         <Link className="Popcorn-button" to="/">Different Selection</Link>
       </div>
       {popcornPiles.map((pile) => (
